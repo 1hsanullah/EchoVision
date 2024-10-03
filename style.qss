@@ -1,0 +1,116 @@
+/* General QWidget styling */
+QWidget {
+    font-family: 'Segoe UI';
+    font-size: 11pt;
+    color: #000000; /* Changed from white to black for better visibility */
+    background-color: #FFFFFF; /* Ensure contrast with text */
+}
+
+/* PushButton styling */
+QPushButton {
+    background-color: #4CAF50; /* Green */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+QPushButton:pressed {
+    background-color: #357835; /* Even darker green */
+}
+
+/* QLabel styling */
+QLabel {
+    color: #000000; /* Changed from light grey to black for visibility */
+}
+
+/* Slider styling */
+QSlider::groove:horizontal {
+    border: 1px solid #bbb;
+    background: #f0f0f0; /* Light grey */
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::handle:horizontal {
+    background: #4CAF50; /* Green */
+    border: 1px solid #4CAF50; /* Green */
+    width: 20px;
+    margin: -5px 0px; /* Adjust handle height */
+    border-radius: 10px; /* Make handle round */
+}
+
+QSlider::add-page:horizontal {
+    background: #f0f0f0; /* Light grey */
+}
+
+QSlider::sub-page:horizontal {
+    background: #4CAF50; /* Green */
+}
+
+/* ComboBox styling */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 6em;
+}
+
+QComboBox:hover {
+    border-color: #aaa;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #f0f0f0; /* Light grey */
+}
+
+/* Mouse Speed ComboBox styling */
+QComboBox#mouseSpeedDropdown {
+    background-color: #4CAF50; /* Green */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    min-width: 6em;
+}
+
+QComboBox#mouseSpeedDropdown:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+QComboBox#mouseSpeedDropdown::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #4CAF50; /* Green */
+}
+
+commandGuideLabel {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+
