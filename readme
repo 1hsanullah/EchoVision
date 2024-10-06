@@ -1,6 +1,8 @@
-# Project Name
+EchoVision
 
-Brief description of your project here.
+Assistive technology for people who suffer for phyisical disabilities. 
+Peripheral Control over computer without the need to use your hands uses webcam to track eye and head movement translating it into mouse cursor movements 
+allowing you to click by winking using algorithms to create a easy to use smoothe experience, also allowing you to type and use commands using voice recognition and text-to-speech.
 
 ## Prerequisites
 
